@@ -14,34 +14,4 @@ public class Product implements Serializable {
     private String name;
     private double price;
     private String image;
-
-    public String getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public String getImage() {
-        return image;
-    }
-
-    public Product(String id, String name, double price, String image) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-        this.image = image;
-    }
-
-    public Product() {
-        this.id = null;
-        this.name = null;
-        this.price = 0.0;
-        this.image = null;
-    }
 }

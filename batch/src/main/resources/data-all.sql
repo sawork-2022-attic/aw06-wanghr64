@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS magazine ;
+DROP TABLE IF EXISTS amazon ;
 
-CREATE TABLE magazine  (
+CREATE TABLE amazon  (
     asin VARCHAR(20) NOT NULL PRIMARY KEY,
     main_cat TEXT,
     title TEXT,
